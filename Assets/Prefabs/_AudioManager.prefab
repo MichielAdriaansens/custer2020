@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3112904074366029959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3112904074366029961}
+  - component: {fileID: 3112904074366029960}
+  m_Layer: 0
+  m_Name: _AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3112904074366029961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3112904074366029959}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3112904074366029960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3112904074366029959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d95c77cc8c4ca945a8e574c75ea1810, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolume: 1
+  sounds:
+  - name: IntroMusic
+    soundClip: {fileID: 8300000, guid: 633eae7d066553141bd92c248c8a2a54, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: MenuMusic
+    soundClip: {fileID: 0}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: LevelStart
+    soundClip: {fileID: 8300000, guid: 5015519a6bb90b6438aa4bdd189e85dd, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: LevelBackground
+    soundClip: {fileID: 8300000, guid: 80f6248ae6bd0db4795c54c807e2a754, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 1
+  - name: PlayerHit
+    soundClip: {fileID: 8300000, guid: 75236a1abc7fd884fa1cb9914220a719, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: PlayerLose
+    soundClip: {fileID: 8300000, guid: d4a4ff9b66645da4e8a3bccc9bdcba6f, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: PlayerScore
+    soundClip: {fileID: 8300000, guid: 5626f12dd7cac9649858cd71f2171f2d, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: LevelUp
+    soundClip: {fileID: 8300000, guid: 7b22a71f5090abb43b34212158d2430e, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: KO
+    soundClip: {fileID: 8300000, guid: 11a0d7b4064abac4fb1382ef0bed1854, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: Sleep
+    soundClip: {fileID: 8300000, guid: 3e71583edaabdcb4599a65b36917ccf4, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: NearDeath
+    soundClip: {fileID: 8300000, guid: 37a8f1e43fb133b4db6e1aa37ae75dad, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: Ehit01
+    soundClip: {fileID: 8300000, guid: 286379cec4343834597d02a4520e4f42, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: Ehit02
+    soundClip: {fileID: 8300000, guid: 8da0f5e53d1036a45b381d433c68e833, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: LetsGetIt
+    soundClip: {fileID: 8300000, guid: 55f33ac4730901941b77d7258a5a0044, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  - name: Ehit03
+    soundClip: {fileID: 8300000, guid: b42366be85837ec4595d3beb5aa89912, type: 3}
+    soundSource: {fileID: 0}
+    soundLoop: 0
+  sleepLoopOn: 0
